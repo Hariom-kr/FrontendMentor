@@ -2,8 +2,7 @@ import qrImage from "./assets/image-qr-code.png";
 
 const QrCard = () => {
   return (
-    <div className='bg-white  rounded-2xl max-w-sm p-4
-    '>
+    <div className='bg-white  rounded-2xl max-w-sm p-4'>
         <img src={qrImage} alt="QR" className="rounded-lg"/>
         <div className="space-y-4">
         <h2 className="font-bold text-center text-xl mt-2">
